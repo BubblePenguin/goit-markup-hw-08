@@ -1,0 +1,22 @@
+.logo {
+  font-family: Raleway;
+  font-size: 26px;
+  /* font-weight: 700; */
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  color: var(--almost-blue);
+
+  &--black {
+    color: var(--almost-black);
+  }
+
+  &--white {
+    color: white;
+  }
+
+  &--almost-blue {
+    color: var(--almost-blue);
+  }
+}

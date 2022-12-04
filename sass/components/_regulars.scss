@@ -1,0 +1,48 @@
+/* --- Regulars --- */
+
+.regulars {
+  padding: 94px 0;
+
+  &__title {
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    letter-spacing: 0.03em;
+    text-align: center;
+
+    margin-bottom: 50px;
+  }
+
+  &__list {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .regulars__item {
+  // }
+
+  &__link {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 92px;
+
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+
+    color: #afb1b8;
+  }
+  &__link:hover,
+  &__link:focus {
+    border-color: var(--almost-blue);
+    color: var(--almost-blue);
+  }
+
+  &__icon {
+    fill: currentColor;
+    /* padding: 16px 32px; */
+  }
+}

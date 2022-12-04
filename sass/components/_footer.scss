@@ -1,0 +1,21 @@
+/* --- Footer --- */
+
+.footer {
+  background-color: var(--dark-gray);
+  padding: 60px 0;
+
+  &__container {
+    /* padding-top: 60px; */
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: baseline;
+
+    justify-content: space-between;
+  }
+
+  &__logo {
+    display: block;
+    /* padding-top: 60px; */
+    margin-bottom: 20px;
+  }
+}

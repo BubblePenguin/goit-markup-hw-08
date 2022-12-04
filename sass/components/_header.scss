@@ -1,0 +1,53 @@
+/* --- Header --- */
+
+.header {
+  background-color: white;
+  border: 1px solid var(--almost-white);
+  font-weight: 500;
+  /* height: 80px; */
+
+  &__logo {
+    margin-right: 90px;
+    padding: 24px 0;
+  }
+
+  &__container {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid #000000; */
+    height: 80px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item:not(:last-child) {
+    margin-right: 50px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: calc(16 / 13);
+    letter-spacing: 0.02em;
+    padding: 32px 0;
+
+    color: var(--almost-gray);
+    display: flex;
+    align-items: center;
+  }
+
+  &__link:hover,
+  &__link:focus {
+    color: var(--almost-blue);
+  }
+
+  &__icon {
+    margin-right: 10px;
+  }
+
+  &__link:hover &__icon,
+  &__link:focus &__icon {
+    fill: var(--almost-blue);
+  }
+}

@@ -1,0 +1,23 @@
+.adress {
+  font-style: normal;
+
+  &__item {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+  }
+
+  &__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+
+  &__link {
+    font-size: 14px;
+    line-height: calc(24 / 14);
+
+    color: #ffffff99;
+  }
+  &__link:hover,
+  &__link:focus {
+    color: white;
+  }
+}

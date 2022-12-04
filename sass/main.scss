@@ -1,0 +1,28 @@
+// BREAKPOINTS
+$mobile: 480px;
+$tablet: 768px;
+$desktop: 1200px;
+
+@import "./utils/vars";
+@import "./utils/btn";
+@import "./utils/general";
+@import "./components/container";
+
+@import "./components/logo";
+@import "./components/header";
+@import "./components/nav";
+@import "./components/footer";
+@import "./components/adress";
+@import "./components/contacts";
+@import "./components/spam";
+@import "./components/modal";
+
+@import "./components/main";
+@import "./components/hero";
+@import "./components/benefits";
+@import "./components/about";
+@import "./components/team";
+@import "./components/regulars";
+@import "./components/portfolio";
+@import "./components/filters";
+@import "./components/works";

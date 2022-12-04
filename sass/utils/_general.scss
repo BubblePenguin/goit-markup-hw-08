@@ -1,0 +1,55 @@
+/* --- General --- */
+
+body {
+  /* width: 1600px; */
+  /* margin: 0 auto; */
+  color: var(--almost-black);
+  font-size: 14px;
+  background-color: white;
+  /* background-color: var(--almost-white); */
+  margin: 0;
+
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+}
+
+button {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
