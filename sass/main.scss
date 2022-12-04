@@ -16,13 +16,17 @@ $desktop: 1200px;
 @import "./components/contacts";
 @import "./components/spam";
 @import "./components/modal";
+@import "./components/menu_toggle";
 
 @import "./components/main";
+@import "./components/section";
+
 @import "./components/hero";
 @import "./components/benefits";
 @import "./components/about";
 @import "./components/team";
 @import "./components/regulars";
+
 @import "./components/portfolio";
 @import "./components/filters";
 @import "./components/works";

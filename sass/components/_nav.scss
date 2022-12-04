@@ -1,7 +1,11 @@
 .nav {
-  display: flex;
+  display: none;
   align-items: center;
   margin-right: auto;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+  }
 
   &__list {
     display: flex;
