@@ -99,7 +99,6 @@ h6 {
 @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-    padding: 0 215px;
   }
 }
 
@@ -681,7 +680,6 @@ h6 {
 }
 .benefits__item {
   width: 450px;
-  /* margin: 30px; */
 }
 .benefits__icon-container {
   display: -webkit-box;
@@ -717,6 +715,10 @@ h6 {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
@@ -742,10 +744,6 @@ h6 {
   }
   .benefits__item {
     width: 270px;
-  }
-  .benefits__item:not(:last-child) {
-    margin-right: 30px;
-    margin-bottom: 0;
   }
   .benefits__icon-container {
     width: 270px;
