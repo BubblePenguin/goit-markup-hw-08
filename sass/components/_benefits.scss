@@ -15,6 +15,7 @@
 
   &__item {
     width: calc(100vw - 30px);
+    box-sizing: border-box;
   }
 
   &__icon-container {
@@ -46,8 +47,6 @@
     color: var(--almost-gray);
   }
   @media screen and (min-width: $mobile) {
-    &__list {
-    }
     &__item {
       width: 450px;
     }

@@ -985,6 +985,8 @@ h6 {
 }
 .benefits__item {
   width: calc(100vw - 30px);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 .benefits__icon-container {
   display: -webkit-box;
