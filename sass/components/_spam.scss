@@ -41,10 +41,15 @@
     border-radius: 4px;
 
     height: 50px;
-    min-width: 358px;
-    width: 450px;
+
+    width: calc(100vw - 30px);
+
+    @media screen and (min-width: $mobile) {
+      width: 450px;
+    }
 
     @media screen and (min-width: $desktop) {
+      min-width: 358px;
       margin-right: 12px;
     }
 
@@ -61,6 +66,7 @@
     height: 50px;
 
     margin-top: 20px;
+
     @media screen and (min-width: $desktop) {
       margin-top: 0;
     }

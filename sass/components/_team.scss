@@ -39,7 +39,11 @@
     border-radius: 0px 0px 4px 4px;
 
     box-sizing: border-box;
-    width: 450px;
+    width: calc(100vw - 30px);
+
+    @media screen and (min-width: $mobile) {
+      width: 450px;
+    }
 
     @media screen and (min-width: $tablet) {
       width: 354px;

@@ -16,7 +16,11 @@
 
   &__container {
     padding: 0;
-    width: 360px;
+    width: calc(100vw - 120px);
+
+    @media screen and (min-width: $mobile) {
+      width: 360px;
+    }
   }
 
   &__item {
