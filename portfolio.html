@@ -19,20 +19,20 @@
   <body>
     <header class="header">
       <div class="container header__container">
+        <a href="./index.html" class="logo link header__logo"
+          >Web<span class="logo--black">Studio</span></a
+        >
         <nav class="nav">
-          <a href="./index.html" class="logo link header__logo"
-            >Web<span class="black">Studio</span>
-          </a>
           <ul class="list nav__list">
             <li class="nav__item">
               <a href="./index.html" class="nav__link link"> Студія </a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link link current">
-                <span class="logo--almost-blue">Портфоліо</span>
-              </a>
+              <a href="./portfolio.html" class="nav__link link current"
+                ><span class="logo--almost-blue">Портфоліо</span></a
+              >
             </li>
-            <li class="v">
+            <li class="nav__item">
               <a href="#" class="nav__link link">Контакти</a>
             </li>
           </ul>
@@ -55,11 +55,20 @@
             >
           </li>
         </ul>
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <svg class="menu-toggle-icon" width="24" height="16">
+            <use href="./images/icons.svg#burger-menu"></use>
+          </svg>
+        </button>
       </div>
     </header>
 
     <main>
-      <section class="portfolio">
+      <section class="portfolio section">
         <div class="container">
           <h1 class="portfolio__title">Портфоліо</h1>
           <ul class="filters">
@@ -83,7 +92,12 @@
           <ul class="works works__container">
             <li class="works__item">
               <a href="#" class="link works__link">
-                <img src="./images/proj_1.jpg" alt="Технокряк" width="370" />
+                <img
+                  class="works__img"
+                  src="./images/proj_1.jpg"
+                  alt="Технокряк"
+                  width="370"
+                />
                 <div class="works__overlay">
                   <p class="works__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -100,6 +114,7 @@
             <li class="works__item">
               <a href="#" class="link works__link">
                 <img
+                  class="works__img"
                   src="./images/proj_2.jpg"
                   alt="Постер New Orlean vs Golden Star"
                   width="370"
@@ -122,6 +137,7 @@
             <li class="works__item">
               <a href="#" class="link works__link">
                 <img
+                  class="works__img"
                   src="./images/proj_3.jpg"
                   alt="Ресторан Seafood"
                   width="370"
@@ -141,7 +157,12 @@
             </li>
             <li class="works__item">
               <a href="#" class="link works__link">
-                <img src="./images/proj_4.jpg" alt="Проєкт Prime" width="370" />
+                <img
+                  class="works__img"
+                  src="./images/proj_4.jpg"
+                  alt="Проєкт Prime"
+                  width="370"
+                />
                 <div class="works__overlay">
                   <p class="works__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -157,7 +178,12 @@
             </li>
             <li class="works__item">
               <a href="#" class="link works__link">
-                <img src="./images/proj_5.jpg" alt="Проєкт Boxes" width="370" />
+                <img
+                  class="works__img"
+                  src="./images/proj_5.jpg"
+                  alt="Проєкт Boxes"
+                  width="370"
+                />
                 <div class="works__overlay">
                   <p class="works__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -174,6 +200,7 @@
             <li class="works__item">
               <a href="#" class="link works__link">
                 <img
+                  class="works__img"
                   src="./images/proj_6.jpg"
                   alt="Inspiration has no Borders"
                   width="370"
@@ -194,6 +221,7 @@
             <li class="works__item">
               <a href="#" class="link works__link">
                 <img
+                  class="works__img"
                   src="./images/proj_7.jpg"
                   alt="Видання Limited Edition"
                   width="370"
@@ -213,7 +241,12 @@
             </li>
             <li class="works__item">
               <a href="#" class="link works__link">
-                <img src="./images/proj_8.jpg" alt="Проєкт LAB" width="370" />
+                <img
+                  class="works__img"
+                  src="./images/proj_8.jpg"
+                  alt="Проєкт LAB"
+                  width="370"
+                />
                 <div class="works__overlay">
                   <p class="works__overlay-text">
                     Ресурс пропонує комплексні пропозиції з різним рівнем
@@ -230,6 +263,7 @@
             <li class="works__item">
               <a href="#" class="link works__link">
                 <img
+                  class="works__img"
                   src="./images/proj_9.jpg"
                   alt="Growing Business"
                   width="370"
@@ -259,7 +293,7 @@
             Web<span class="logo--white">Studio</span>
           </a>
           <address class="adress">
-            <ul class="list">
+            <ul class="adress__list list">
               <li class="adress__item">
                 <a
                   href="https://goo.gl/maps/7DHRsWRWhvXfeD8q7"
@@ -325,7 +359,7 @@
               placeholder="E-mail"
               class="spam__mail"
             />
-            <button type="button" class="spam__btn">
+            <button type="button" class="spam__btn btn">
               <span class="spam__btn-container">
                 <span>Підписатися</span
                 ><svg class="spam__btn-icon" width="24" height="24">

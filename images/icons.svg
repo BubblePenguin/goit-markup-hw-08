@@ -87,15 +87,13 @@
     <symbol id="checkbox" viewBox="0 0 34 32">
       <path d="M30.341 3.556v24.889h-26.548v-24.889h26.548zM30.341 0h-26.548c-2.086 0-3.793 1.6-3.793 3.556v24.889c0 1.956 1.707 3.556 3.793 3.556h26.548c2.086 0 3.793-1.6 3.793-3.556v-24.889c0-1.956-1.707-3.556-3.793-3.556z"></path>
     </symbol>
-    <symbol
-      id="burger-menu"
-      viewBox="0 0 20 20"
-    >
-      <path
-        fill-rule="evenodd"
-        d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-        clip-rule="evenodd"
-      ></path>
+    <symbol id="burger-menu" viewBox="0 0 20 20">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M0 2.66667V0H24V2.66667H0ZM0 9.33333H24V6.66667H0V9.33333ZM0 16H24V13.3333H0V16Z"/>
     </symbol>
+    <symbol id="menu-close" viewBox="0 0 19 19">
+      <path d="M18.6667 1.88L16.7867 0L9.33333 7.45334L1.88 0L0 1.88L7.45334 9.33333L0 16.7867L1.88 18.6667L9.33333 11.2133L16.7867 18.6667L18.6667 16.7867L11.2133 9.33333L18.6667 1.88Z"/>
+    </symbol>
+
+    
   </defs>
 </svg>

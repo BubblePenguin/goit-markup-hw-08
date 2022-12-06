@@ -1,6 +1,22 @@
 .adress {
   font-style: normal;
+  margin-top: 20px;
+  margin-bottom: 60px;
 
+  @media screen and (min-width: $desktop) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media screen and (min-width: $desktop) {
+      align-items: flex-start;
+    }
+  }
   &__item {
     font-size: 14px;
     line-height: calc(24 / 14);

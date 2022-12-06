@@ -1,5 +1,10 @@
 .spam {
-  margin-left: 93px;
+  // width: 100%;
+
+  @media screen and (min-width: $desktop) {
+    margin-left: 93px;
+    // width: auto;
+  }
 
   .spam__title {
     font-size: 14px;
@@ -16,6 +21,16 @@
     margin-top: 20px;
 
     /* height: 50px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    // width: 100%;
+
+    @media screen and (min-width: $desktop) {
+      flex-direction: row;
+      // width: auto;
+    }
   }
 
   &__mail {
@@ -27,7 +42,11 @@
 
     height: 50px;
     min-width: 358px;
-    margin-right: 12px;
+    width: 450px;
+
+    @media screen and (min-width: $desktop) {
+      margin-right: 12px;
+    }
 
     padding-left: 15px;
     padding-right: 15px;
@@ -40,6 +59,11 @@
   &__btn {
     width: 200px;
     height: 50px;
+
+    margin-top: 20px;
+    @media screen and (min-width: $desktop) {
+      margin-top: 0;
+    }
   }
 
   &__btn-container {

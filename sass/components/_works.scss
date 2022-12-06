@@ -17,6 +17,18 @@
 
     position: relative;
     overflow: hidden;
+
+    width: 450px;
+    @media screen and (min-width: $tablet) {
+      width: 354px;
+    }
+    @media screen and (min-width: $desktop) {
+      width: 370px;
+    }
+  }
+
+  &__img {
+    width: 100%;
   }
 
   &__item:hover,

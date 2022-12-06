@@ -1,5 +1,10 @@
 .contacts {
-  margin-left: 70px;
+  margin-bottom: 60px;
+
+  @media screen and (min-width: $tablet) {
+    margin-left: 70px;
+    margin-bottom: 0;
+  }
 
   &__title {
     text-transform: uppercase;
